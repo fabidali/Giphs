@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>The Land of Wood and Water</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body>
+    <!-- Header for all the gifs in this project -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Jamaica - The Land of Wood and Water</h1>
+        </div>
+    </div>
+    <!-- Gif operations to be done when button clicked -->
+            <div id="gifButtons" class="container">
+            </div>
+     <!-- Column sizes based on device being used -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+         <!-- Submission Form  -->
+        <div>
+            <form id="JamaicaGif" role="form">
+                <h2><legend>Action Submission</legend></h2>
+                <div class="form-group">
+                    <label for="action-input">Type what you'd like to see</label>
+                    <input type="text" id="action-input">
+                </div>
+                <input id="showGif" type="submit" value="Show new gif" class="btn btn-primary">
+                <input id="hideGif" type="submit" value="Hide last gif" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+    <footer>
+        <div id="footer" class="container">
+            <h3 id="copyright">&copy; Fabian Christie - <strong>TEMPO CHAR</strong></h4>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/jamaica.js"></script>
+</body>
+</html>
